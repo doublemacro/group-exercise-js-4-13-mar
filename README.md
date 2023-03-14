@@ -1,3 +1,4 @@
+# Exercise 1:
 
 # Start working in the main.js file.
 
@@ -57,7 +58,21 @@ lookLast()
 size()
 - returns the size of our deque.
 
+# Exercise 2:
+# Start working in the index.html and script.js file.
 
+Create a div container for the following input and button tags:
+ - Create an input tag with id "posts-input".
+ - Create a button called "Post"
 
+Create a div below the first container, with id "posts-container".
 
+Whenever user clicks on save:
+- we add the input value to an array
+- clear the input
+
+Create a function called render(). Call it whenever the user clicks the "Post" button. In our render():
+- we clear the posts-container. Tip: use .innerHTML
+- we create a paragraph tag for each element in the array, and insert them in the posts-container.
+Tip: use document.createElement(). use container.appendChild();
 
