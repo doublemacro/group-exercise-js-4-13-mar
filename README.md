@@ -84,3 +84,4 @@ A static method called storeData(keyName, obj)
 A static method called loadData(keyName, obj)
 - that will retrieve the data from localstorage, using the given key keyName, parse the data from json, and save it in obj, by doing: obj = result.
 
+Use this class to save our post array everytime we add a post, and load the posts when the page loads.
