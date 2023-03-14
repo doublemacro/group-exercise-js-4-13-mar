@@ -76,3 +76,11 @@ Create a function called render(). Call it whenever the user clicks the "Post" b
 - we create a paragraph tag for each element in the array, and insert them in the posts-container.
 Tip: use document.createElement(). use container.appendChild();
 
+### Create a class called Storage, that will have:
+
+A static method called storeData(keyName, obj)
+- that will convert the obj to json, and save it in localstorage using the keyName provided.
+
+A static method called loadData(keyName, obj)
+- that will retrieve the data from localstorage, using the given key keyName, parse the data from json, and save it in obj, by doing: obj = result.
+
